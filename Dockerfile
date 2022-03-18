@@ -1,4 +1,4 @@
-FROM alpine:3.13.5
+FROM alpine:3.15.1
 
 RUN mkdir -p /etc/dropbear/
 RUN adduser shell -D
